@@ -25,3 +25,11 @@ uploads/
 **/uploads/*
 !**/uploads/.gitkeep
 
+# Environment & Local Secrets
+.env
+.env.*
+!.env.example
+*.local
+application-local.yml
+application-local.properties
+
